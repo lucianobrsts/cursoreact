@@ -1,3 +1,4 @@
+import AnotherComponent from "./AnotherComponent"
 
 function FirstComponent() {
 
@@ -9,7 +10,7 @@ function FirstComponent() {
             {/* Comentário no JSX */}
             <p>Primeiro Componente</p>
             {2 + 2}
-            <p>{name}</p>
+            <p>Nome: {name}</p>
         </div>
     )
 }
